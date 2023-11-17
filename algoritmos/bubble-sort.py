@@ -1,3 +1,5 @@
+# Complexidade: O(N²) - Pior Caso
+
 A = [4, 5, 1, 9, 0, 8, 6, 3, 2, 7]
 
 def bubblesort(vetor):
