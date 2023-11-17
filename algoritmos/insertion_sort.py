@@ -14,7 +14,3 @@ def insertion(vetor):
             j=j-1
 
     return vetor
-
-vetor = [0, 1, 2, 3, 4, 5]
-resultado = insertion(vetor)
-print(resultado)

@@ -1,7 +1,5 @@
 # Complexidade: O(N*logN) - Pior Caso
 
-A = [4, 5, 1, 9, 0, 8, 6, 3, 2, 7]
-
 def mergesort(A, inicio=0, fim=None):
     if fim is None:
         fim = len(A)
@@ -31,5 +29,3 @@ def merge(A, inicio, meio, fim):
         else:
             A[k] = right[j]
             j = j + 1
-
-print(mergesort(A))
