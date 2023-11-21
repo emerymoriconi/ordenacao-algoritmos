@@ -27,8 +27,3 @@ def partition(A, inicio, fim):
             i = i + 1
     A[i], A[fim] = A[fim], A[i]
     return i
-
-
-
-
-    
