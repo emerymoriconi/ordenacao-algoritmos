@@ -2,8 +2,8 @@ import random
 from algoritmos import bubble_sort, merge_sort, insertion_sort, quick_sort_lomuto, quick_sort_original
 
 #define uma semente fixa
-#seed = 42
-#random.seed(seed)
+seed = 42
+random.seed(seed)
 
 #vetor decrescente de 1000 elementos (ajustar a quantidade de acordo com a necessidade)
 vetor_decrescente = sorted(random.sample(range(1, 100), 20), reverse=True)
