@@ -1,3 +1,4 @@
+#Algoritmo de Lomuto
 #Complexidade depende da escolha do pivot.
 #O(N²) - Pior Caso. Escolha do pivot que divide o array em dois, um com 0 elementos e outro com n - 1 elementos.
 #N*logN - Melhor Caso. Escolha do pivot que divide o array em dois, ambos com N/2 elementos.
