@@ -4,15 +4,15 @@
 #O melhor caso, no quicksort, é o predominante.
 #Considerado o algortimo de ordenação mais rápido.
 
-def quicksort(A, inicio=0, fim=None):
+def quicksort_lomuto(A, inicio=0, fim=None):
     if fim is None:
         fim = len(A) - 1
     if inicio < fim:
         #p recebe a posição correta do pivot
         p = partition(A, inicio, fim)
         #divisão e conquista
-        quicksort(A, inicio, p-1)
-        quicksort(A, p+1, fim)
+        quicksort_lomuto(A, inicio, p-1)
+        quicksort_lomuto(A, p+1, fim)
     return A
 
 def partition(A, inicio, fim):
